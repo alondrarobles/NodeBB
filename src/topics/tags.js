@@ -133,6 +133,7 @@ module.exports = function (Topics) {
 	};
 
 	async function renameTag(tag, newTagName) {
+		console.log('Alondra Isabella Robles');
 		if (!newTagName || tag === newTagName) {
 			return;
 		}
